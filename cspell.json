@@ -1,0 +1,6 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": ["node_modules",".next","dist","build","public","legacy/**"],
+  "words": ["EFSP","Vercel","Nextjs","Turbopack","UTM","waiver","DFO","OG","Husky","supabase","vercel","jaretphillips1-ui"]
+}
