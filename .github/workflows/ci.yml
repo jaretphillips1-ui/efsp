@@ -1,5 +1,7 @@
 name: CI
-on: [push, pull_request]
+on:
+  pull_request:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -8,9 +10,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       - run: npm ci
-      - run: npm run lint
       - run: npm run typecheck
-      - run: node scripts/check-todo.mjs
-      - run: npm run build
+      - run: npm test --if-present

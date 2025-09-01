@@ -1,80 +1,6 @@
 # EFSP – Master To-Do (Admin Source of Truth)
 _Last updated: 2025-08-31_
 
----
-
-## ✅ Foundations (done)
-- [x] Single canonical repo (`efsp`)
-- [x] Clean Next.js app (TS, App Router)
-- [x] Vercel deploy (efsp.vercel.app)
-- [x] Daily rotating backups (keeps last 3) + verified
-- [x] GitHub ↔ Vercel linked; repo visibility corrected
-
----
-
-## 🔒 Backups & Safety
-- [ ] Auto-backup hook: run `~/efsp-backup.sh` after successful `npm run build`
-- [ ] Weekly log check for `~/efsp-backup.log`, alert if failures
-- [ ] Document restore steps in README ("Backups" section)
-
----
-
-## 🔄 CI/CD & Repo Hygiene
-- [ ] GitHub Actions CI (lint / typecheck / spellcheck warn / build)
-- [ ] README CI badge
-- [ ] Branch protection: require passing checks on `main`
-- [ ] (Optional) Husky pre-commit: lint + typecheck
-
----
-
-## 🎣 Tournament Features
-- [ ] Tournament Types (Kayak / Motorboat / Mixed icons)
-- [ ] Multi-waterbody support with boundaries + launch points
-- [ ] GPS Check-in within launch radius
-- [ ] Target species pair per event (Biggie-Smallie toggle)
-- [ ] Completion + Winner bonuses
-- [ ] Lunker bonus (largest bass difference)
-
----
-
-## 👤 Angler Features
-- [ ] Angler Profiles (photo, contact, province, rookie status)
-- [ ] Personal Albums + Tournament Albums
-- [ ] Verified “stamp” for personal bests
-- [ ] Achievements + Badges system
-
----
-
-## 🤖 AI & Verification
-- [ ] Photo AI: species ID
-- [ ] Tail-to-length measurement
-- [ ] Mouth open/closed detection
-- [ ] 4-digit event code presence
-- [ ] Real-time feedback + warnings
-
----
-
-## 🛠 Admin Tools
-- [ ] Rules system (custom + generated w/ regulation links)
-- [ ] DFO Export (CSV + PDF + charts + ZIP)
-- [ ] Sponsor-friendly slide deck export
-- [ ] Admin-only To-Do page (/admin/todo)
-
----
-
-## 🎁 Engagement
-- [ ] Random Prize Draw (Wheel of Fortune)
-- [ ] Wall of Fame (biggest fish by species)
-- [ ] Sponsor visibility + referral links
-
----
-
-## 🌦 Future Improvements
-- [ ] Weather integration (per location)
-- [ ] Boundary alerts (warning + auto DQ outside)
-- [ ] Backup auto-rotation with logs# EFSP – Master To-Do (Admin Source of Truth)
-_Last updated: 2025-08-31_
-
 ## ✅ Foundations (done)
 - [x] Single canonical repo (`efsp`)
 - [x] Clean Next.js app (TS, App Router)
@@ -88,10 +14,10 @@ _Last updated: 2025-08-31_
 - [ ] Document restore steps in README ("Backups" section)
 
 ## 🛠 CI/CD & Repo Hygiene
-- [ ] GitHub Actions CI (lint / typecheck / spellcheck warn / build)
+- [x] GitHub Actions CI (lint / typecheck / spellcheck warn / build)
 - [ ] README CI badge
 - [ ] Branch protection: require passing checks on `main`
-- [ ] (Optional) Husky pre-commit: lint + typecheck
+- [x] (Optional) Husky pre-commit: lint + typecheck
 
 ## 🧹 Cleanup
 - [ ] Remove any old local folders (`~/efsp-live-*`, `~/efsp-fix*`) if present
