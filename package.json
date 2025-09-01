@@ -10,7 +10,8 @@
     "type-check": "tsc -noEmit",
     "typecheck": "tsc --noEmit",
     "prepare": "husky",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "verify": "git status && npm run build"
   },
   "dependencies": {
     "next": "^15.5.2",
