@@ -1,0 +1,10 @@
+# keep secrets & noise out of the published package
+.env
+.env.*
+.husky/
+.github/
+.next/
+coverage/
+*.log
+.DS_Store
+node_modules/
