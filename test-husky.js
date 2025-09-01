@@ -4,3 +4,4 @@
 // lint-staged test
 // lint-staged works
 // lint-staged finally works
+// verify hooks + lint-staged
