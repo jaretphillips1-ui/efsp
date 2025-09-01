@@ -1,3 +1,4 @@
+[![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml)
 ![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)
 
 ![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)
