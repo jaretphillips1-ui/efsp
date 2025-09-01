@@ -1,4 +1,7 @@
 [![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml)
 ![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)
 
 ![CI](https://github.com/jaretphillips1-ui/efsp/actions/workflows/ci.yml/badge.svg)
