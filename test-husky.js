@@ -5,3 +5,4 @@
 // lint-staged works
 // lint-staged finally works
 // verify hooks + lint-staged
+// hook smoke test
