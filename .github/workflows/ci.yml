@@ -1,16 +1,16 @@
 name: CI
-on:
-  push: { branches: ["main"] }
-  pull_request: { branches: ["main"] }
+on: [push, pull_request]
 jobs:
-  build-and-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
-      - run: npm ci || npm install
-      - run: npm run lint || npx eslint . || echo "no lint script"
-      - run: npm run type-check || npx tsc -noEmit || echo "no ts"
-      - run: npx cspell "**/*" || echo "::warning title=cspell::Spelling issues (see log)"
-      - run: npm run build || echo "no build script"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: node scripts/check-todo.mjs
+      - run: npm run build
