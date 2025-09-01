@@ -1,5 +1,5 @@
 # EFSP – Master To-Do (Admin Source of Truth)
-_Last updated: 2025-08-31_
+_Last updated: 2025-09-01
 
 ## ✅ Foundations (done)
 - [x] Single canonical repo (`efsp`)
